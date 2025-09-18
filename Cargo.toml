@@ -1,0 +1,11 @@
+[package]
+name = "polygon-arbitrage-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = "2.0"   # no features here, this is enough
+tokio = { version = "1.28", features = ["full"] }
+dotenv = "0.15"
+rusqlite = { version = "0.30", features = ["bundled"] }
+eyre = "0.6"
